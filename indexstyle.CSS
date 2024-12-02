@@ -1,0 +1,42 @@
+ li>a {
+    color:red;
+}
+
+nav>h2 {
+    color:#ffffff;
+    background-color:#0d0d97;
+    text-align:center;
+}
+
+nav #first_para {
+    color:red;
+    font-size: 20px;
+}
+
+[href] {
+    color:red;
+    text-decoration-line:none;
+}
+
+.active {
+    color:#1491be;
+    text-decoration-line: underline; 
+}
+
+[target*="_self"] {
+    background-color: rgb(150, 230, 177);
+}
+
+ .third_para::after {
+    content: "...";
+    text-transform: capitalize;
+}
+
+li::marker {
+   color: #0d0d97;
+}
+
+.second_para::first-letter {
+    color:red;
+    font-size: 30px;
+}
